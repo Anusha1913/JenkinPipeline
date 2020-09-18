@@ -1,6 +1,6 @@
 pipeline{
 	agent any
-STAGES{
+stages{
 	stage('STAGE1'){
 
 	steps{
