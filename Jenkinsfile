@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
 	agent any
 stages {
 	stage ('STAGE1'){
@@ -6,11 +6,11 @@ stages {
 	steps {
 		sh 'sleep 30'
 	     }
-
-	stage ('STAGE2')
+	}
+	stage ('STAGE2'){
 	steps {
 		sh 'sleep 60'
 	     }
-}
+	}
 }
 }
