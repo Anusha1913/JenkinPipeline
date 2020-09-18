@@ -1,14 +1,14 @@
 pipeline{
 	agent any
-stages{
-	stage('STAGE1'){
+stages {
+	stage ('STAGE1'){
 
-	steps{
+	steps {
 		sh 'sleep 30'
 	     }
 
-	stage('STAGE2')
-	steps{
+	stage ('STAGE2')
+	steps {
 		sh 'sleep 60'
 	     }
 }
